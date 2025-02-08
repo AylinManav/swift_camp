@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41A22C0D2D42C6B600A5F84D /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = 41A22C0C2D42C6B600A5F84D /* SwiftyBeaver */; };
+		017D4CC52D553A360040A8CD /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 017D4CC42D553A0B0040A8CD /* Config.xcconfig */; };
+		3CCB621F2D4E2777006EBB09 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 3CCB621E2D4E2777006EBB09 /* SQLite */; };
 		41A22C112D42C8DC00A5F84D /* EnvironmentConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41A22C102D42C8CE00A5F84D /* EnvironmentConfig.plist */; };
+		5557D6D22D44E50100034CEA /* NavbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5557D6CF2D44E50100034CEA /* NavbarView.swift */; };
+		556B28532D5039F900D20F1B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 556B28522D5039F900D20F1B /* FirebaseAnalytics */; };
+		556B28552D5039F900D20F1B /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 556B28542D5039F900D20F1B /* FirebaseCore */; };
+		556B28572D5039F900D20F1B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 556B28562D5039F900D20F1B /* FirebaseFirestore */; };
+		556B28592D503AC000D20F1B /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 556B28582D503AC000D20F1B /* FirebaseCrashlytics */; };
+		556B285B2D503B0000D20F1B /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 556B285A2D503B0000D20F1B /* FirebasePerformance */; };
+		556B28B22D50429C00D20F1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 556B28B12D50429C00D20F1B /* GoogleService-Info.plist */; };
 		7F313A07292BC7E90048C74C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F313A06292BC7E90048C74C /* AppDelegate.swift */; };
 		7F313A10292BC7EA0048C74C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F313A0F292BC7EA0048C74C /* Assets.xcassets */; };
 		7F313A13292BC7EA0048C74C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F313A11292BC7EA0048C74C /* LaunchScreen.storyboard */; };
@@ -30,10 +38,50 @@
 		7F313A4D292BCD860048C74C /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F313A49292BCD860048C74C /* HomePresenter.swift */; };
 		7F313A4E292BCD860048C74C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F313A4A292BCD860048C74C /* HomeView.swift */; };
 		7F313A4F292BCD860048C74C /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F313A4B292BCD860048C74C /* HomeWireframe.swift */; };
+		89525E8F2D453D61008BF4B6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 89525E8E2D453D5D008BF4B6 /* Podfile */; };
+		89C9FED52D44E9A100CDF043 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 89C9FECE2D44E9A100CDF043 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		89C9FF1B2D44F20E00CDF043 /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = 89C9FF1A2D44F20E00CDF043 /* SwiftyBeaver */; };
+		89C9FF1E2D44F32100CDF043 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 89C9FF1D2D44F32100CDF043 /* OneSignalExtension */; };
+		89C9FF202D44F4C200CDF043 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 89C9FF1F2D44F4C200CDF043 /* OneSignalFramework */; };
+		89C9FF222D44F4D000CDF043 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 89C9FF212D44F4D000CDF043 /* OneSignalInAppMessages */; };
+		89C9FF242D45060300CDF043 /* OneSignalLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 89C9FF232D45060300CDF043 /* OneSignalLocation */; };
+		89EBF4EE2D52505500D6FB92 /* Mixpanel in Frameworks */ = {isa = PBXBuildFile; productRef = 89EBF4ED2D52505500D6FB92 /* Mixpanel */; };
+		D44590F12D50AA4F004B54C8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D44590F02D50AA4F004B54C8 /* FirebaseAuth */; };
+		D44591012D50C425004B54C8 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = D44591002D50C425004B54C8 /* GoogleSignIn */; };
+		D44591032D50C425004B54C8 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D44591022D50C425004B54C8 /* GoogleSignInSwift */; };
+		D4F81E982D550C5D004EB676 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = D4F81E972D550C5D004EB676 /* FacebookCore */; };
+		D4F81E9A2D550C5D004EB676 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = D4F81E992D550C5D004EB676 /* FacebookLogin */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		89C9FED32D44E9A100CDF043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F3139FB292BC7E90048C74C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C9FECD2D44E9A100CDF043;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89C9FEDA2D44E9A100CDF043 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				89C9FED52D44E9A100CDF043 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		017D4CC42D553A0B0040A8CD /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		41A22C102D42C8CE00A5F84D /* EnvironmentConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = EnvironmentConfig.plist; sourceTree = "<group>"; };
+		5557D6CF2D44E50100034CEA /* NavbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavbarView.swift; sourceTree = "<group>"; };
+		556B28B12D50429C00D20F1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7F313A03292BC7E90048C74C /* SwiftCampDevs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCampDevs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F313A06292BC7E90048C74C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F313A0F292BC7EA0048C74C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,12 +102,27 @@
 		7F313A49292BCD860048C74C /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		7F313A4A292BCD860048C74C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7F313A4B292BCD860048C74C /* HomeWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
+		89525E8E2D453D5D008BF4B6 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		89C9FEC92D44E8F100CDF043 /* SwiftCampDevs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftCampDevs.entitlements; sourceTree = "<group>"; };
+		89C9FECE2D44E9A100CDF043 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		89C9FED62D44E9A100CDF043 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 89C9FECD2D44E9A100CDF043 /* OneSignalNotificationServiceExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		41AA93EA2D3257B30007EFFD /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
 		41AA93FB2D3257CC0007EFFD /* Helpers */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Helpers; sourceTree = "<group>"; };
 		41AA94052D3257F10007EFFD /* Utils */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Utils; sourceTree = "<group>"; };
+		89C9FECF2D44E9A100CDF043 /* OneSignalNotificationServiceExtension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (89C9FED62D44E9A100CDF043 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = OneSignalNotificationServiceExtension; sourceTree = "<group>"; };
+		D482C5962D42CC2500810A86 /* Login */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Login; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,20 +130,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44591032D50C425004B54C8 /* GoogleSignInSwift in Frameworks */,
+				3CCB621F2D4E2777006EBB09 /* SQLite in Frameworks */,
+				89C9FF222D44F4D000CDF043 /* OneSignalInAppMessages in Frameworks */,
 				7F313A33292BC8C70048C74C /* RxSwift in Frameworks */,
 				7F313A31292BC8C70048C74C /* RxRelay in Frameworks */,
 				7F313A2F292BC8C70048C74C /* RxCocoa in Frameworks */,
-				41A22C0D2D42C6B600A5F84D /* SwiftyBeaver in Frameworks */,
+				89C9FF1B2D44F20E00CDF043 /* SwiftyBeaver in Frameworks */,
+				D4F81E982D550C5D004EB676 /* FacebookCore in Frameworks */,
+				556B28552D5039F900D20F1B /* FirebaseCore in Frameworks */,
+				89C9FF242D45060300CDF043 /* OneSignalLocation in Frameworks */,
+				89C9FF202D44F4C200CDF043 /* OneSignalFramework in Frameworks */,
+				D44590F12D50AA4F004B54C8 /* FirebaseAuth in Frameworks */,
+				D4F81E9A2D550C5D004EB676 /* FacebookLogin in Frameworks */,
+				89EBF4EE2D52505500D6FB92 /* Mixpanel in Frameworks */,
+				D44591012D50C425004B54C8 /* GoogleSignIn in Frameworks */,
+				556B28592D503AC000D20F1B /* FirebaseCrashlytics in Frameworks */,
+				556B285B2D503B0000D20F1B /* FirebasePerformance in Frameworks */,
+				556B28572D5039F900D20F1B /* FirebaseFirestore in Frameworks */,
+				556B28532D5039F900D20F1B /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C9FECB2D44E9A100CDF043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C9FF1E2D44F32100CDF043 /* OneSignalExtension in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5557D6D02D44E50100034CEA /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				5557D6CF2D44E50100034CEA /* NavbarView.swift */,
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		5557D6D12D44E50100034CEA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5557D6D02D44E50100034CEA /* BaseViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7F3139FA292BC7E90048C74C = {
 			isa = PBXGroup;
 			children = (
 				7F313A05292BC7E90048C74C /* SwiftCampDevs */,
+				89C9FECF2D44E9A100CDF043 /* OneSignalNotificationServiceExtension */,
+				89C9FF1C2D44F32100CDF043 /* Frameworks */,
 				7F313A04292BC7E90048C74C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				7F313A03292BC7E90048C74C /* SwiftCampDevs.app */,
+				89C9FECE2D44E9A100CDF043 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +201,10 @@
 		7F313A05292BC7E90048C74C /* SwiftCampDevs */ = {
 			isa = PBXGroup;
 			children = (
+				017D4CC42D553A0B0040A8CD /* Config.xcconfig */,
+				89525E8E2D453D5D008BF4B6 /* Podfile */,
+				89C9FEC92D44E8F100CDF043 /* SwiftCampDevs.entitlements */,
+				5557D6D12D44E50100034CEA /* Views */,
 				41AA94052D3257F10007EFFD /* Utils */,
 				41AA93FB2D3257CC0007EFFD /* Helpers */,
 				41AA93EA2D3257B30007EFFD /* Components */,
@@ -107,6 +216,7 @@
 				7F313A0F292BC7EA0048C74C /* Assets.xcassets */,
 				7F313A11292BC7EA0048C74C /* LaunchScreen.storyboard */,
 				41A22C102D42C8CE00A5F84D /* EnvironmentConfig.plist */,
+				556B28B12D50429C00D20F1B /* GoogleService-Info.plist */,
 				7F313A14292BC7EA0048C74C /* Info.plist */,
 			);
 			path = SwiftCampDevs;
@@ -147,6 +257,7 @@
 		7F313A3B292BCB590048C74C /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				D482C5962D42CC2500810A86 /* Login */,
 				7F313A47292BCD750048C74C /* Home */,
 			);
 			path = Modules;
@@ -163,6 +274,13 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		89C9FF1C2D44F32100CDF043 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,26 +291,68 @@
 				7F3139FF292BC7E90048C74C /* Sources */,
 				7F313A00292BC7E90048C74C /* Frameworks */,
 				7F313A01292BC7E90048C74C /* Resources */,
+				89C9FEDA2D44E9A100CDF043 /* Embed Foundation Extensions */,
+				017D4CC62D5544300040A8CD /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				89C9FED42D44E9A100CDF043 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				41AA93EA2D3257B30007EFFD /* Components */,
 				41AA93FB2D3257CC0007EFFD /* Helpers */,
 				41AA94052D3257F10007EFFD /* Utils */,
+				D482C5962D42CC2500810A86 /* Login */,
 			);
 			name = SwiftCampDevs;
 			packageProductDependencies = (
 				7F313A2E292BC8C70048C74C /* RxCocoa */,
 				7F313A30292BC8C70048C74C /* RxRelay */,
 				7F313A32292BC8C70048C74C /* RxSwift */,
-				41A22C0C2D42C6B600A5F84D /* SwiftyBeaver */,
+				89C9FF1A2D44F20E00CDF043 /* SwiftyBeaver */,
+				89C9FF1F2D44F4C200CDF043 /* OneSignalFramework */,
+				89C9FF212D44F4D000CDF043 /* OneSignalInAppMessages */,
+				89C9FF232D45060300CDF043 /* OneSignalLocation */,
+				3CCB621E2D4E2777006EBB09 /* SQLite */,
+				D44590F02D50AA4F004B54C8 /* FirebaseAuth */,
+				D44591002D50C425004B54C8 /* GoogleSignIn */,
+				D44591022D50C425004B54C8 /* GoogleSignInSwift */,
+				556B28522D5039F900D20F1B /* FirebaseAnalytics */,
+				556B28542D5039F900D20F1B /* FirebaseCore */,
+				556B28562D5039F900D20F1B /* FirebaseFirestore */,
+				556B28582D503AC000D20F1B /* FirebaseCrashlytics */,
+				556B285A2D503B0000D20F1B /* FirebasePerformance */,
+				89EBF4ED2D52505500D6FB92 /* Mixpanel */,
+				D4F81E972D550C5D004EB676 /* FacebookCore */,
+				D4F81E992D550C5D004EB676 /* FacebookLogin */,
 			);
 			productName = DemoApp;
 			productReference = 7F313A03292BC7E90048C74C /* SwiftCampDevs.app */;
 			productType = "com.apple.product-type.application";
+		};
+		89C9FECD2D44E9A100CDF043 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C9FED72D44E9A100CDF043 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				89C9FECA2D44E9A100CDF043 /* Sources */,
+				89C9FECB2D44E9A100CDF043 /* Frameworks */,
+				89C9FECC2D44E9A100CDF043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				89C9FECF2D44E9A100CDF043 /* OneSignalNotificationServiceExtension */,
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				89C9FF1D2D44F32100CDF043 /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 89C9FECE2D44E9A100CDF043 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -201,11 +361,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
+				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					7F313A02292BC7E90048C74C = {
 						CreatedOnToolsVersion = 14.0.1;
+					};
+					89C9FECD2D44E9A100CDF043 = {
+						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
@@ -220,13 +383,20 @@
 			mainGroup = 7F3139FA292BC7E90048C74C;
 			packageReferences = (
 				7F313A2D292BC8C70048C74C /* XCRemoteSwiftPackageReference "RxSwift" */,
-				41A22C0B2D42C6B500A5F84D /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+				89C9FEDD2D44EF5100CDF043 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+				89C9FEDE2D44F00800CDF043 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+				3CCB621D2D4E2777006EBB09 /* XCRemoteSwiftPackageReference "SQLite" */,
+				D44590FF2D50C425004B54C8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				556B28512D5039F900D20F1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				89EBF4EC2D52505500D6FB92 /* XCRemoteSwiftPackageReference "mixpanel-swift" */,
+				D4F81E962D550C5D004EB676 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = 7F313A04292BC7E90048C74C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7F313A02292BC7E90048C74C /* SwiftCampDevs */,
+				89C9FECD2D44E9A100CDF043 /* OneSignalNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -238,11 +408,46 @@
 			files = (
 				41A22C112D42C8DC00A5F84D /* EnvironmentConfig.plist in Resources */,
 				7F313A13292BC7EA0048C74C /* LaunchScreen.storyboard in Resources */,
+				556B28B22D50429C00D20F1B /* GoogleService-Info.plist in Resources */,
+				89525E8F2D453D61008BF4B6 /* Podfile in Resources */,
+				017D4CC52D553A360040A8CD /* Config.xcconfig in Resources */,
 				7F313A10292BC7EA0048C74C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		89C9FECC2D44E9A100CDF043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		017D4CC62D5544300040A8CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"$(SRCROOT)/${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
+				"$(SRCROOT)/${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+				"$(SRCROOT)/$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+				"$(SRCROOT)/$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n$(SRCROOT)/\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F3139FF292BC7E90048C74C /* Sources */ = {
@@ -260,6 +465,7 @@
 				7F313A24292BC8670048C74C /* BaseWireframe.swift in Sources */,
 				7F313A22292BC8670048C74C /* FormatterInterface.swift in Sources */,
 				7F313A4E292BCD860048C74C /* HomeView.swift in Sources */,
+				5557D6D22D44E50100034CEA /* NavbarView.swift in Sources */,
 				7F313A39292BC92C0048C74C /* StartupInitializationBuilder.swift in Sources */,
 				7F313A2C292BC8A80048C74C /* HostingNavigationController.swift in Sources */,
 				7F313A4C292BCD860048C74C /* HomeInterfaces.swift in Sources */,
@@ -268,7 +474,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		89C9FECA2D44E9A100CDF043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89C9FED42D44E9A100CDF043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89C9FECD2D44E9A100CDF043 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 89C9FED32D44E9A100CDF043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7F313A11292BC7EA0048C74C /* LaunchScreen.storyboard */ = {
@@ -401,9 +622,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftCampDevs/SwiftCampDevs.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 426TL8YMQ8;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4GW994398K;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftCampDevs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -416,7 +640,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.masterfabric.swiftdevs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterfabric.campdev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -433,9 +657,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftCampDevs/SwiftCampDevs.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 426TL8YMQ8;
+				DEVELOPMENT_TEAM = 4GW994398K;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftCampDevs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -448,7 +674,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.masterfabric.swiftdevs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterfabric.campdev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -457,6 +683,69 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		89C9FED82D44E9A100CDF043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GW994398K;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterfabric.campdev.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89C9FED92D44E9A100CDF043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = OneSignalNotificationServiceExtension/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4GW994398K;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masterfabric.campdev.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -481,15 +770,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		89C9FED72D44E9A100CDF043 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C9FED82D44E9A100CDF043 /* Debug */,
+				89C9FED92D44E9A100CDF043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		41A22C0B2D42C6B500A5F84D /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
+		3CCB621D2D4E2777006EBB09 /* XCRemoteSwiftPackageReference "SQLite" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftyBeaver/SwiftyBeaver";
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.1.1;
+				minimumVersion = 0.15.3;
+			};
+		};
+		556B28512D5039F900D20F1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
 			};
 		};
 		7F313A2D292BC8C70048C74C /* XCRemoteSwiftPackageReference "RxSwift" */ = {
@@ -500,13 +806,78 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		89C9FEDD2D44EF5100CDF043 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.9;
+			};
+		};
+		89C9FEDE2D44F00800CDF043 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyBeaver/SwiftyBeaver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		89EBF4EC2D52505500D6FB92 /* XCRemoteSwiftPackageReference "mixpanel-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mixpanel/mixpanel-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D44590FF2D50C425004B54C8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		D4F81E962D550C5D004EB676 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		41A22C0C2D42C6B600A5F84D /* SwiftyBeaver */ = {
+		3CCB621E2D4E2777006EBB09 /* SQLite */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 41A22C0B2D42C6B500A5F84D /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
-			productName = SwiftyBeaver;
+			package = 3CCB621D2D4E2777006EBB09 /* XCRemoteSwiftPackageReference "SQLite" */;
+			productName = SQLite;
+		};
+		556B28522D5039F900D20F1B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 556B28512D5039F900D20F1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		556B28542D5039F900D20F1B /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 556B28512D5039F900D20F1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		556B28562D5039F900D20F1B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 556B28512D5039F900D20F1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		556B28582D503AC000D20F1B /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 556B28512D5039F900D20F1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		556B285A2D503B0000D20F1B /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 556B28512D5039F900D20F1B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
 		};
 		7F313A2E292BC8C70048C74C /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -522,6 +893,60 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7F313A2D292BC8C70048C74C /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
+		};
+		89C9FF1A2D44F20E00CDF043 /* SwiftyBeaver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89C9FEDE2D44F00800CDF043 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
+			productName = SwiftyBeaver;
+		};
+		89C9FF1D2D44F32100CDF043 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89C9FEDD2D44EF5100CDF043 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		89C9FF1F2D44F4C200CDF043 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89C9FEDD2D44EF5100CDF043 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		89C9FF212D44F4D000CDF043 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89C9FEDD2D44EF5100CDF043 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+		89C9FF232D45060300CDF043 /* OneSignalLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89C9FEDD2D44EF5100CDF043 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalLocation;
+		};
+		89EBF4ED2D52505500D6FB92 /* Mixpanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89EBF4EC2D52505500D6FB92 /* XCRemoteSwiftPackageReference "mixpanel-swift" */;
+			productName = Mixpanel;
+		};
+		D44590F02D50AA4F004B54C8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAuth;
+		};
+		D44591002D50C425004B54C8 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D44590FF2D50C425004B54C8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		D44591022D50C425004B54C8 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D44590FF2D50C425004B54C8 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		D4F81E972D550C5D004EB676 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4F81E962D550C5D004EB676 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		D4F81E992D550C5D004EB676 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4F81E962D550C5D004EB676 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -94,6 +94,34 @@ struct EnvironmentHelper {
         }
     }
     
+    var mixPanelToken: String {
+        do {
+            guard let appToken = infoDictionary["MIXPANEL_TOKEN"] as? String else {
+                throw EnvironmentError.missingKey(key: "MIXPANEL_TOKEN")
+            }
+            LoggerHelper.shared.debug("🔑 MixPanel App Token: \(appToken)")
+            return appToken
+        } catch {
+            LoggerHelper.shared.error("⚠️ Error fetching MixPanel App Token: \(error.localizedDescription). Defaulting to empty App Token.")
+            return ""
+        }
+    }
+    
+    
+    /// Returns the GitHub repository API URL.
+    var githubRepoApi: String {
+        do {
+            guard let url = infoDictionary["GITHUB_REPO_API"] as? String else {
+                throw EnvironmentError.missingKey(key: "GITHUB_REPO_API")
+            }
+            LoggerHelper.shared.debug("📂 GitHub Repo API: \(url)")
+            return url
+        } catch {
+            LoggerHelper.shared.error("⚠️ Error fetching GITHUB_REPO_API: \(error.localizedDescription). Defaulting to empty GitHub API URL.")
+            return "https://api.github.com/repos/default"
+        }
+    }
+    
     /// Returns the encryption key for the current environment.
     var encryptionKey: String {
         do {
